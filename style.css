@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.baslik{
+    background-color:aquamarine;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    float: left;
+
+}
+h2{
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-size: 30px;
+    color: blueviolet;
+
+}
+p{
+    font-size: 17px;
+    font-weight: 600;
+}
+span{
+    color: red;
+}
+.ozelA{
+    color: red;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    height: 0px;
+
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+a:hover{
+    color: red;
+}
+.resimAlani{
+    display:flex;
+    justify-content: space-around;
+}
+
+.resimAlani img{
+    width: 400px;
+    padding-top:1rem;
+}
